@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 剧情事件配置 -->
+<Root>
+<StoryEvent id="1" name="春風南登场">
+  <SetBG Description="设置场景背景CG,会消除其它UI" id="cg01012" fadeInTime="0.5" />
+  <PlaySound name="BGM_01" />
+  <ShowText Description="剧情独白" visible="1">
+	<DialogueTextList>
+		<DialogueText content="在黄昏的余晖中，思绪如风在流转."/>
+		<DialogueText content="诗行如水荡漾，抚摸心灵的脉络" />
+	</DialogueTextList>
+  </ShowText>
+  <SetCharacterImage id="cg03001" pos="0" speakName="春风南" animation="10|20"/>
+  <SetSpeakerName name="春风南" fadeInTime="1"/>
+  <ShowText Description="剧情独白" visible="1">
+	<DialogueTextList>
+		<DialogueText content="花开花落，岁月变幻，时光的指针从指缝中滑过"/>
+		<DialogueText content="梦想与希望在心间绽放，一字一句铸就永恒的诗歌。!!!" />
+	</DialogueTextList>
+  </ShowText>
+  <SetCharacterImage id="cg03011" pos="1" speakName="春风南" animation="10|20"/>
+  <SetSpeakerName name="楠叶" fadeInTime="1"/>
+  <ShowText Description="剧情独白" visible="1">
+	<DialogueTextList>
+		<DialogueText content="诗人的笔尖轻舞，舞动着无尽的情感。"/>
+		<DialogueText content="抒发心中的喜悦与哀愁，倾诉世间的真善美恶" />
+	</DialogueTextList>
+  </ShowText>
+  
+  <Delay time="0.2"/>
+  <SetCharacterImage id="" pos="1" speakName="春风南" animation="11|20"/>
+  <Delay time="0.2"/>
+  <SetCharacterImage id="" pos="0" speakName="春风南" animation="11|20"/>
+
+<SetSpeakerName name="" fadeInTime="1"/>
+
+  <DialogueChoice Description="分支选项">
+	<DialogueChoiceList>
+		<Choice text="1.选项1" nextTo="找寻月球车"/>
+		<Choice text="2.选项2" nextTo="找到曾家队长"/>
+		<Choice text="3.选项3" nextTo="不玩了"/>
+	</DialogueChoiceList>
+  </DialogueChoice>
+  <Delay time="1"/>
+ </StoryEvent>
+
+<StoryEvent id="2" name="找寻月球车">
+  <SetBG Description="" id="cg01015" fadeInTime="0.5" />
+  <Delay time="2"/>
+</StoryEvent>
+ 
+<StoryEvent id="3" name="找到曾家队长">
+  <SetBG Description="" id="cg01022" fadeInTime="0.5" />
+  <Delay time="2"/>
+</StoryEvent>
+
+<StoryEvent id="10" name="不玩了">
+  <SetBG Description="" id="cg01062" fadeInTime="0.5" />
+   <ShowText Description="剧情独白" visible="1">
+	<DialogueTextList>
+		<DialogueText content="游戏结束了"/>
+	</DialogueTextList>
+  </ShowText>
+
+  <Delay time="2"/>
+</StoryEvent>
+
+</Root>
+
+
+

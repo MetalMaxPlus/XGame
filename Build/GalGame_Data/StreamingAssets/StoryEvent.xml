@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 剧情事件配置 -->
+<StoryEvent id="1" name="春風南登场">
+  <ShowBG Description="显示场景背景CG" id="cg01012" fadeInTime="1.2" />
+  <ShowCharacter Description="显示人物CG" id="0" />
+  <PlaySound Description="播放背景音乐" id="10001"/>
+  <ScreenText Description="剧情独白">
+    <Text>"――――今日は四月六日、始業式の朝"</Text>
+    <Text>"快晴で風もおだやか、実に気持ちいい天気！"</Text>
+  </ScreenText>
+  <ShowRole Description="显示人物" Pos="0" cg="10001" mode="1" />
+  <Voice Description="说话语音" id="1"/>
+  <Say Description="人物说话" name="春風南">
+      <Text>"「……あとはこれで、桜の花が咲いてたら文句ナシ、"</Text>
+      <Text>"67890"</Text>
+  </Say>
+</StoryEvent>

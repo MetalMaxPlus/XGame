@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 剧情事件配置 -->
+<GameStory Description="配置每天触发的剧情(不包括特殊条件触发的)">
+  <DayStory day="1" storyXMLPath="1.xml"/>
+  <DayStory day="2" storyXMLPath="2.xml"/>
+  <DayStory day="3" storyXMLPath="3.xml"/>
+</GameStory>

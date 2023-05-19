@@ -1,0 +1,7 @@
+<!-- animation_config.xml -->
+<UIAnimation>
+    <Animation id="10" type="fade" duration="0.5" startValue="0" endValue="1.0" />
+    <Animation id="11" type="fade" duration="0.5" startValue="1" endValue="0"/>
+	<Animation id="20" type="shake" duration="0.5" strengthX="5" strengthY="5"/>
+	<Animation id="30" type="trans" duration="1" startOffset="3" endValue="1" />
+</UIAnimation>

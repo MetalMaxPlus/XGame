@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 剧情事件配置 -->
+<StoryEvent id="1" name="Test场景">
+  <ShowBG Description="显示场景背景CG" id="cg01015" fadeInTime="122.5" />
+</StoryEvent>
